@@ -1,0 +1,23 @@
+{
+  "name": "d3-flextree-v4",
+  "version": "0.0.0",
+  "description": "Reimplementation of d3-flextree for D3 v4",
+  "main": "src/d3-flextree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neptunjs/d3-flextree.git"
+  },
+  "keywords": ["d3", "flextree", "v4", "tree"],
+  "author": "Michaël Zasso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neptunjs/d3-flextree/issues"
+  },
+  "homepage": "https://github.com/neptunjs/d3-flextree#readme",
+  "dependencies": {
+    "d3-hierarchy": "^1.1.4"
+  }
+}

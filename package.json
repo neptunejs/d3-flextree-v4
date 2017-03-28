@@ -1,6 +1,6 @@
 {
   "name": "d3-flextree-v4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reimplementation of d3-flextree for D3 v4",
   "main": "src/d3-flextree.js",
   "scripts": {

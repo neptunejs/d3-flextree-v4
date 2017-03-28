@@ -15,7 +15,6 @@ function flextree() {
     var spacing = null;
     var size = [1, 1];    // xSize, ySize
     var nodeSize = null;
-    var setNodeSizes = false;
 
     // This stores the xSize of the root node, for use with the spacing
     // function
@@ -284,7 +283,7 @@ function flextree() {
     // lowest vertical coordinate.
     function updateIYL(minY, i, ih) {
         // Remove siblings that are hidden by the new subtree.
-        while (ih !== undefined && minY >= ih.lowY) ih = ih.nxt;
+        while (ih !== null && minY >= ih.lowY) ih = ih.nxt;
         // Prepend the new subtree.
         return {
             lowY: minY,

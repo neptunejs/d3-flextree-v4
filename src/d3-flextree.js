@@ -1,5 +1,5 @@
 'use strict';
-const Node = require('d3-hierarchy/src/hierarchy/index').Node;
+const Node = require('d3-hierarchy').hierarchy.prototype.constructor;
 
 // Node-link tree diagram using the Reingold-Tilford "tidy" algorithm,
 // as improved by A.J. van der Ploeg, 2013, "Drawing Non-layered Tidy
